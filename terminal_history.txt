@@ -1,0 +1,50 @@
+   46  ll
+   47  mkdir loan_qualifier_app
+   48  ll
+   49  cd loan_qualifier_app/
+   50  cp ~/OneDrive/FinTech_Workspace/Code_Activities/Challenge/Module2\ Challenge/Starter_Code/* .
+   51  rsync -a ~/OneDrive/FinTech_Workspace/Code_Activities/Challenge/Module2\ Challenge/Starter_Code/loan_qualifier_app/ .
+   52  ll
+   53  git commit
+   54  git config --global user.email "ozzytech85@gmail.com"
+   55  git commit
+   56  ll
+   57  git add *
+   58  ll
+   59  git push
+   60  ll
+   61  git commit
+   62  git push
+   63  ll
+   64  python app.py
+   65  python app.py
+   66  python app.py
+   67  python app.py
+   68  python app.py
+   69  python app.py
+   70  python app.py
+   71  python app.py
+   72  python app.py
+   73  python app.py
+   74  python app.py
+   75  python app.py
+   76  python app.py
+   77  python app.py
+   78  python app.py
+   79  python app.py
+   80  git commit -m "This commit includes the completed save function"
+   81  ll
+   82  rm test.csv 
+   83  git push
+   84  ll
+   85  git push
+   86  git commit
+   87  git pull
+   88  ll
+   89  ll
+   90  git commit
+   91  git rm test.csv 
+   92  git commit
+   93  git push
+   94  cd ../../
+   95  history 50 > terminal_history.txt
