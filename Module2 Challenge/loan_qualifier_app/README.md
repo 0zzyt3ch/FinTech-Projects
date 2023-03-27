@@ -1,18 +1,18 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This application will allow users to find out if they are qualified for a loan. If the user is qualified they will be able to save the list of loans they have qualified for to a csv file.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+The applicaion is written in Python and employs serveral libraries to include fire, quetionary, csv and some modules that have been written for this project.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+To use this app you just simply need to clone this project.
 
 ---
 
