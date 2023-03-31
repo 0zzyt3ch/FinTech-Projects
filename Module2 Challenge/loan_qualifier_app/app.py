@@ -117,7 +117,7 @@ def save_qualifying_loans(qualifying_loans):
         sys.exit()
     
     save_requested = False
-
+    # Loop to obtain and validate user response to save or not.
     while save_requested == False:
         user_response = questionary.text("Would you like to save results to a file? yes or no?:").ask()
         if user_response.lower() == "yes":
@@ -132,6 +132,7 @@ def save_qualifying_loans(qualifying_loans):
             for loan in qualifying_loans:
                 csvwriter.writerow(loan)
             save_requested = True
+
         elif user_response.lower() == "no":
             print(f"You have chosen not to save the results.")
             sys.exit()
